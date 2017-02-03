@@ -1,0 +1,527 @@
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=5.1.1
+TARGET_PRODUCT=p1v_att_us
+TARGET_BUILD_VARIANT=userdebug
+TARGET_BUILD_TYPE=release
+TARGET_BUILD_APPS=
+TARGET_ARCH=arm
+TARGET_ARCH_VARIANT=armv7-a-neon
+TARGET_CPU_VARIANT=cortex-a53
+TARGET_CARRIER=ATT
+TARGET_COUNTRY=US
+TARGET_2ND_ARCH=
+TARGET_2ND_ARCH_VARIANT=
+TARGET_2ND_CPU_VARIANT=
+HOST_ARCH=x86_64
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-3.13.0-37-generic-x86_64-with-Ubuntu-12.04-precise
+HOST_BUILD_TYPE=release
+BUILD_ID=LMY47V
+OUT_DIR=out-p1v_att_us
+============================================
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/init.p1v_product.rc:root/init.p1v_product.rc
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/init.lge.zramswap.sh:system/etc/init.lge.zramswap.sh
+PRODUCT_COPY_FILES device/lge/p1v/telephony/operator/US/ATT/telephony.xml:system/etc/telephony.xml
+PRODUCT_COPY_FILES device/lge/p1v/telephony/operator/US/ATT/featureset.xml:system/etc/featureset.xml
+PRODUCT_COPY_FILES device/lge/p1v/telephony/operator/US/ATT/rssi_ATT.xml:system/etc/rssi.xml
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/acdbdata/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/acdbdata/General_cal.acdb:system/etc/General_cal.acdb
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/acdbdata/Global_cal.acdb:system/etc/Global_cal.acdb
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/acdbdata/Handset_cal.acdb:system/etc/Handset_cal.acdb
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/acdbdata/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/acdbdata/Headset_cal.acdb:system/etc/Headset_cal.acdb
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/acdbdata/Speaker_cal.acdb:system/etc/Speaker_cal.acdb
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/acdbdata/workspaceFile.qwsp:system/etc/workspaceFile.qwsp
+PRODUCT_COPY_FILES device/lge/p1v/lge_touch.idc:system/usr/idc/lge_touch.idc
+PRODUCT_COPY_FILES device/lge/p1v/init.lge.adsp_sensors.rc:root/init.lge.sensors.rc
+PRODUCT_COPY_FILES frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/poweranimation/bootanimation.zip:system/media/bootanimation.zip
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/poweranimation/shutdownanimation.zip:system/media/shutdownanimation.zip
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/spirent_datum_mos.sh:system/etc/spirent_datum_mos.sh
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/alarms/Acappella_Good_Morning.ogg:system/media/audio/alarms/Acappella_Good_Morning.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/alarms/Alarm_1.ogg:system/media/audio/alarms/Alarm_1.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/alarms/Alarm_2.ogg:system/media/audio/alarms/Alarm_2.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/alarms/Beautiful_Day.ogg:system/media/audio/alarms/Beautiful_Day.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/alarms/Cello.ogg:system/media/audio/alarms/Cello.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/alarms/Clockwork.ogg:system/media/audio/alarms/Clockwork.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/alarms/Country_Road.ogg:system/media/audio/alarms/Country_Road.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/alarms/Dawning_Sky.ogg:system/media/audio/alarms/Dawning_Sky.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/alarms/Headline.ogg:system/media/audio/alarms/Headline.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/alarms/Journey.ogg:system/media/audio/alarms/Journey.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/alarms/Melody_Alarm.ogg:system/media/audio/alarms/Melody_Alarm.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/alarms/Morning_Scent.ogg:system/media/audio/alarms/Morning_Scent.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/alarms/Music_Box.ogg:system/media/audio/alarms/Music_Box.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/alarms/Running.ogg:system/media/audio/alarms/Running.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/alarms/Shampoo.ogg:system/media/audio/alarms/Shampoo.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/alarms/Temple_Stay.ogg:system/media/audio/alarms/Temple_Stay.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/alarms/Timer.ogg:system/media/audio/alarms/Timer.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/alarms/Voice_of_Nature.ogg:system/media/audio/alarms/Voice_of_Nature.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/alarms/White_Rabbit.ogg:system/media/audio/alarms/White_Rabbit.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/alarms/Windflower.ogg:system/media/audio/alarms/Windflower.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/ringtones/00_ATT_Catch_Me.ogg:system/media/audio/ringtones/00_ATT_Catch_Me.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/ringtones/00_ATT_Firefly.ogg:system/media/audio/ringtones/00_ATT_Firefly.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/ringtones/00_ATT_Play_On.ogg:system/media/audio/ringtones/00_ATT_Play_On.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/ringtones/00_ATT_Stargazer.ogg:system/media/audio/ringtones/00_ATT_Stargazer.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/ringtones/Life_Is_Good.ogg:system/media/audio/ringtones/Life_Is_Good.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/ringtones/Snowflakes.ogg:system/media/audio/ringtones/Snowflakes.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/ringtones/Maple.ogg:system/media/audio/ringtones/Maple.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/ringtones/Time_Travel.ogg:system/media/audio/ringtones/Time_Travel.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/ringtones/Timeless.ogg:system/media/audio/ringtones/Timeless.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/ringtones/Sirius.ogg:system/media/audio/ringtones/Sirius.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/ringtones/Simple_Bell_1.ogg:system/media/audio/ringtones/Simple_Bell_1.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/ringtones/Simple_Bell_2.ogg:system/media/audio/ringtones/Simple_Bell_2.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/ringtones/Simple_Bell_3.ogg:system/media/audio/ringtones/Simple_Bell_3.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/ringtones/Hello.ogg:system/media/audio/ringtones/Hello.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/ringtones/Oasis.ogg:system/media/audio/ringtones/Oasis.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/ringtones/Ukulele.ogg:system/media/audio/ringtones/Ukulele.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/ringtones/Little_Spheres.ogg:system/media/audio/ringtones/Little_Spheres.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/ringtones/Jungle_Gym.ogg:system/media/audio/ringtones/Jungle_Gym.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/ringtones/Crescent_Moon.ogg:system/media/audio/ringtones/Crescent_Moon.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/ringtones/Take_Off.ogg:system/media/audio/ringtones/Take_Off.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/ringtones/Code.ogg:system/media/audio/ringtones/Code.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/ringtones/Coconut.ogg:system/media/audio/ringtones/Coconut.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/ringtones/Puzzle.ogg:system/media/audio/ringtones/Puzzle.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/ringtones/Peppermint.ogg:system/media/audio/ringtones/Peppermint.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/ringtones/Balloon.ogg:system/media/audio/ringtones/Balloon.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/ringtones/Harmonica.ogg:system/media/audio/ringtones/Harmonica.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/ringtones/Eternal.ogg:system/media/audio/ringtones/Eternal.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/ringtones/Recollection.ogg:system/media/audio/ringtones/Recollection.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/ringtones/Vacation.ogg:system/media/audio/ringtones/Vacation.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/notification/Acorn.ogg:system/media/audio/notifications/Acorn.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/notification/Country_Blues.ogg:system/media/audio/notifications/Country_Blues.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/notification/Crystal.ogg:system/media/audio/notifications/Crystal.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/notification/Ding_Dong.ogg:system/media/audio/notifications/Ding_Dong.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/notification/Door_Lock.ogg:system/media/audio/notifications/Door_Lock.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/notification/Echo.ogg:system/media/audio/notifications/Echo.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/notification/Email.ogg:system/media/audio/notifications/Email.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/notification/Greetings.ogg:system/media/audio/notifications/Greetings.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/notification/Ice_Cube.ogg:system/media/audio/notifications/Ice_Cube.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/notification/News.ogg:system/media/audio/notifications/News.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/notification/Nutcracker.ogg:system/media/audio/notifications/Nutcracker.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/notification/Olive.ogg:system/media/audio/notifications/Olive.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/notification/Pebble.ogg:system/media/audio/notifications/Pebble.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/notification/Rainbow.ogg:system/media/audio/notifications/Rainbow.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/notification/Schedule.ogg:system/media/audio/notifications/Schedule.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/notification/Shooting_Star.ogg:system/media/audio/notifications/Shooting_Star.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/notification/Spectrum.ogg:system/media/audio/notifications/Spectrum.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/notification/Spiral.ogg:system/media/audio/notifications/Spiral.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/notification/Twinkle.ogg:system/media/audio/notifications/Twinkle.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/notification/Woodpecker.ogg:system/media/audio/notifications/Woodpecker.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/Bluetooth_alert.ogg:system/media/audio/ui/Bluetooth_alert.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/camera_click.ogg:system/media/audio/ui/camera_click.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/circle_lock.ogg:system/media/audio/ui/circle_lock.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/circle_unlock1.ogg:system/media/audio/ui/circle_unlock1.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/circle_unlock2.ogg:system/media/audio/ui/circle_unlock2.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/circle_unlock3.ogg:system/media/audio/ui/circle_unlock3.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/circle_unlock4.ogg:system/media/audio/ui/circle_unlock4.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/clear_ram.ogg:system/media/audio/ui/clear_ram.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/dewdrop_lock.ogg:system/media/audio/ui/dewdrop_lock.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/dewdrop_touchdown.ogg:system/media/audio/ui/dewdrop_touchdown.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/dewdrop_touchrelease.ogg:system/media/audio/ui/dewdrop_touchrelease.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/dewdrop_unlock.ogg:system/media/audio/ui/dewdrop_unlock.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/Dock.ogg:system/media/audio/ui/Dock.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/Effect_Tick.ogg:system/media/audio/ui/Effect_Tick.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/Email_Sent.ogg:system/media/audio/ui/Email_Sent.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/FullBattery.ogg:system/media/audio/ui/FullBattery.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/Homescreen_Remove.ogg:system/media/audio/ui/Homescreen_Remove.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/Homescreen_Uninstall.ogg:system/media/audio/ui/Homescreen_Uninstall.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/ink_lock.ogg:system/media/audio/ui/ink_lock.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/ink_touchdown.ogg:system/media/audio/ui/ink_touchdown.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/ink_unlock.ogg:system/media/audio/ui/ink_unlock.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/IR_normal.ogg:system/media/audio/ui/IR_normal.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/KeypressDelete.ogg:system/media/audio/ui/KeypressDelete.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/KeypressReturn.ogg:system/media/audio/ui/KeypressReturn.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/KeypressSpacebar.ogg:system/media/audio/ui/KeypressSpacebar.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/KeypressStandard.ogg:system/media/audio/ui/KeypressStandard.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/LG_Cable_Connect.ogg:system/media/audio/ui/LG_Cable_Connect.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/LG_Media_volume.ogg:system/media/audio/ui/LG_Media_volume.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/Lock.ogg:system/media/audio/ui/Lock.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/LowBattery_incall.ogg:system/media/audio/ui/LowBattery_incall.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/LowBattery.ogg:system/media/audio/ui/LowBattery.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/MannerCancel.ogg:system/media/audio/ui/MannerCancel.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/NFC_End.ogg:system/media/audio/ui/NFC_End.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/NFC_Error.ogg:system/media/audio/ui/NFC_Error.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/NFC_Start.ogg:system/media/audio/ui/NFC_Start.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/ripple_lock.ogg:system/media/audio/ui/ripple_lock.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/ripple_touchdown1.ogg:system/media/audio/ui/ripple_touchdown1.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/ripple_touchdown2.ogg:system/media/audio/ui/ripple_touchdown2.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/ripple_touchdown3.ogg:system/media/audio/ui/ripple_touchdown3.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/ripple_touchrelease1.ogg:system/media/audio/ui/ripple_touchrelease1.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/ripple_touchrelease2.ogg:system/media/audio/ui/ripple_touchrelease2.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/ripple_touchrelease3.ogg:system/media/audio/ui/ripple_touchrelease3.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/ripple_unlock.ogg:system/media/audio/ui/ripple_unlock.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/SilentRing.ogg:system/media/audio/ui/SilentRing.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/switchoff.ogg:system/media/audio/ui/switchoff.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/switchon.ogg:system/media/audio/ui/switchon.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/Undock.ogg:system/media/audio/ui/Undock.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/unlock_mute.ogg:system/media/audio/ui/unlock_mute.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/Unlock.ogg:system/media/audio/ui/Unlock.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/VideoRecord.ogg:system/media/audio/ui/VideoRecord.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/whitehole_lock.ogg:system/media/audio/ui/whitehole_lock.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/whitehole_unlock.ogg:system/media/audio/ui/whitehole_unlock.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/crystal_lock.ogg:system/media/audio/ui/crystal_lock.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/crystal_unlock.ogg:system/media/audio/ui/crystal_unlock.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/particle_lock.ogg:system/media/audio/ui/particle_lock.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/particle_unlock.ogg:system/media/audio/ui/particle_unlock.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/Lock_Cover.ogg:system/media/audio/ui/Lock_Cover.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/light_lock.ogg:system/media/audio/ui/light_lock.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/light_touchdown.ogg:system/media/audio/ui/light_touchdown.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/light_unlock.ogg:system/media/audio/ui/light_unlock.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/mosaic_lock.ogg:system/media/audio/ui/mosaic_lock.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/mosaic_touchdown.ogg:system/media/audio/ui/mosaic_touchdown.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/mosaic_unlock.ogg:system/media/audio/ui/mosaic_unlock.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/soda_lock.ogg:system/media/audio/ui/soda_lock.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/soda_touchdown.ogg:system/media/audio/ui/soda_touchdown.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/soda_unlock.ogg:system/media/audio/ui/soda_unlock.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/vector_lock.ogg:system/media/audio/ui/vector_lock.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/vector_touchdown.ogg:system/media/audio/ui/vector_touchdown.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/vector_unlock.ogg:system/media/audio/ui/vector_unlock.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/cam_snap_0.ogg:system/media/audio/ui/cam_snap_0.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/af_success.ogg:system/media/audio/ui/af_success.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/af_failure.ogg:system/media/audio/ui/af_failure.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/cam_timer_1sec.ogg:system/media/audio/ui/cam_timer_1sec.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/cam_timer_last.ogg:system/media/audio/ui/cam_timer_last.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/snd_loop.ogg:system/media/audio/ui/snd_loop.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/shot_snap.ogg:system/media/audio/ui/shot_snap.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/camstart.ogg:system/media/audio/ui/camstart.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/camstop.ogg:system/media/audio/ui/camstop.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/continuous_shot.ogg:system/media/audio/ui/continuous_shot.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/voicesound_cheese.ogg:system/media/audio/ui/voicesound_cheese.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/voicesound_smile.ogg:system/media/audio/ui/voicesound_smile.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/voicesound_whisky.ogg:system/media/audio/ui/voicesound_whisky.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/voicesound_kimchi.ogg:system/media/audio/ui/voicesound_kimchi.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/voicesound_lg.ogg:system/media/audio/ui/voicesound_lg.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/charging_error.ogg:system/media/audio/ui/charging_error.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/voicesound_torimasu.ogg:system/media/audio/ui/voicesound_torimasu.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/WirelessChargingStarted.ogg:system/media/audio/ui/WirelessChargingStarted.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/PowerOn.ogg:system/media/audio/ui/PowerOn.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/hulahoops_lock.ogg:system/media/audio/ui/hulahoops_lock.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/hulahoops_touchdown.ogg:system/media/audio/ui/hulahoops_touchdown.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/hulahoops_unlock.ogg:system/media/audio/ui/hulahoops_unlock.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/circlemosaic_lock.ogg:system/media/audio/ui/circlemosaic_lock.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/circlemosaic_touchdown.ogg:system/media/audio/ui/circlemosaic_touchdown.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/effects/circlemosaic_unlock.ogg:system/media/audio/ui/circlemosaic_unlock.ogg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/factorytest/1kHz_0dB_L128k.mp3:system/sounds/lgeSounds/1kHz_0dB_L128k.mp3
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/factorytest/1kHz_0dB_LR_128k.mp3:system/sounds/lgeSounds/1kHz_0dB_LR_128k.mp3
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/factorytest/1kHz_0dB_R_128k.mp3:system/sounds/lgeSounds/1kHz_0dB_R_128k.mp3
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/factorytest/MultiSine_20-20kHz-0dBp_128k.mp3:system/sounds/lgeSounds/MultiSine_20-20kHz-0dBp_128k.mp3
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/factorytest/NoSignal_LR_128k.mp3:system/sounds/lgeSounds/NoSignal_LR_128k.mp3
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/factorytest/bt_loopback_silence.wav:system/sounds/lgeSounds/bt_loopback_silence.wav
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/factorytest/1000hz_10sec.mp3:system/sounds/lgeSounds/1000hz_10sec.mp3
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/factorytest/315_3150hz_2sec.mp3:system/sounds/lgeSounds/315_3150hz_2sec.mp3
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/factorytest/630Hz_10sec.mp3:system/sounds/lgeSounds/630Hz_10sec.mp3
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/factorytest/4000Hz_10sec.mp3:system/sounds/lgeSounds/4000Hz_10sec.mp3
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/factorytest/500Hz_0dB_LR_128k.mp3:system/sounds/lgeSounds/500Hz_0dB_LR_128k.mp3
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/factorytest/800Hz_0dB_LR_128k.mp3:system/sounds/lgeSounds/800Hz_0dB_LR_128k.mp3
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/factorytest/4KHz_0dB_LR_128k.mp3:system/sounds/lgeSounds/4KHz_0dB_LR_128k.mp3
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/prebuilt/media/audio/factorytest/2kHz_2sec_mute_1sec_500Hz_2sec.mp3:system/sounds/lgeSounds/2kHz_2sec_mute_1sec_500Hz_2sec.mp3
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/audio_config/mixer_paths.xml:system/etc/mixer_paths.xml
+PRODUCT_COPY_FILES vendor/lge/apps/ImsA/build/permissions/att/com.lge.ims.xml:system/etc/permissions/com.lge.ims.xml
+PRODUCT_COPY_FILES vendor/lge/apps/ImsA/libimsmmpf/libmmpf/resources/dtmf/dtmf0.pcm:system/media/ims/audio/dtmf/dtmf0.pcm
+PRODUCT_COPY_FILES vendor/lge/apps/ImsA/libimsmmpf/libmmpf/resources/dtmf/dtmf1.pcm:system/media/ims/audio/dtmf/dtmf1.pcm
+PRODUCT_COPY_FILES vendor/lge/apps/ImsA/libimsmmpf/libmmpf/resources/dtmf/dtmf2.pcm:system/media/ims/audio/dtmf/dtmf2.pcm
+PRODUCT_COPY_FILES vendor/lge/apps/ImsA/libimsmmpf/libmmpf/resources/dtmf/dtmf3.pcm:system/media/ims/audio/dtmf/dtmf3.pcm
+PRODUCT_COPY_FILES vendor/lge/apps/ImsA/libimsmmpf/libmmpf/resources/dtmf/dtmf4.pcm:system/media/ims/audio/dtmf/dtmf4.pcm
+PRODUCT_COPY_FILES vendor/lge/apps/ImsA/libimsmmpf/libmmpf/resources/dtmf/dtmf5.pcm:system/media/ims/audio/dtmf/dtmf5.pcm
+PRODUCT_COPY_FILES vendor/lge/apps/ImsA/libimsmmpf/libmmpf/resources/dtmf/dtmf6.pcm:system/media/ims/audio/dtmf/dtmf6.pcm
+PRODUCT_COPY_FILES vendor/lge/apps/ImsA/libimsmmpf/libmmpf/resources/dtmf/dtmf7.pcm:system/media/ims/audio/dtmf/dtmf7.pcm
+PRODUCT_COPY_FILES vendor/lge/apps/ImsA/libimsmmpf/libmmpf/resources/dtmf/dtmf9.pcm:system/media/ims/audio/dtmf/dtmf9.pcm
+PRODUCT_COPY_FILES vendor/lge/apps/ImsA/libimsmmpf/libmmpf/resources/dtmf/dtmf8.pcm:system/media/ims/audio/dtmf/dtmf8.pcm
+PRODUCT_COPY_FILES vendor/lge/apps/ImsA/libimsmmpf/libmmpf/resources/dtmf/dtmf10.pcm:system/media/ims/audio/dtmf/dtmf10.pcm
+PRODUCT_COPY_FILES vendor/lge/apps/ImsA/libimsmmpf/libmmpf/resources/dtmf/dtmf11.pcm:system/media/ims/audio/dtmf/dtmf11.pcm
+PRODUCT_COPY_FILES vendor/lge/apps/ImsA/libimsmmpf/libmmpf/resources/dtmf/dtmf12.pcm:system/media/ims/audio/dtmf/dtmf12.pcm
+PRODUCT_COPY_FILES vendor/lge/apps/ImsA/libimsmmpf/libmmpf/resources/dtmf/dtmf13.pcm:system/media/ims/audio/dtmf/dtmf13.pcm
+PRODUCT_COPY_FILES vendor/lge/apps/ImsA/libimsmmpf/libmmpf/resources/dtmf/dtmf14.pcm:system/media/ims/audio/dtmf/dtmf14.pcm
+PRODUCT_COPY_FILES vendor/lge/apps/ImsA/libimsmmpf/libmmpf/resources/dtmf/dtmf15.pcm:system/media/ims/audio/dtmf/dtmf15.pcm
+PRODUCT_COPY_FILES vendor/lge/apps/ImsA/libimsmmpf/libmmpf/resources/image/pause_img_qcif.dat:system/media/ims/image/pause_img_qcif.dat
+PRODUCT_COPY_FILES vendor/lge/apps/ImsA/libimsmmpf/libmmpf/resources/image/pause_img_qvga.dat:system/media/ims/image/pause_img_qvga.dat
+PRODUCT_COPY_FILES vendor/lge/apps/ImsA/libimsmmpf/libmmpf/resources/image/pause_img_vga_l.dat:system/media/ims/image/pause_img_vga_l.dat
+PRODUCT_COPY_FILES vendor/lge/apps/ImsA/libimsmmpf/libmmpf/resources/image/pause_img_vga_p.dat:system/media/ims/image/pause_img_vga_p.dat
+PRODUCT_COPY_FILES vendor/lge/apps/ImsA/build/permissions/com.lge.server.ims.xml:system/etc/permissions/com.lge.server.ims.xml
+PRODUCT_COPY_FILES frameworks/native/data/etc/android.hardware.nfc.xml:system/etc/permissions/android.hardware.nfc.xml
+PRODUCT_COPY_FILES frameworks/native/data/etc/android.hardware.nfc.hce.xml:system/etc/permissions/android.hardware.nfc.hce.xml
+PRODUCT_COPY_FILES vendor/lge/apps/Nfc/config/xml/config_NZ.xml:system/etc/nfc/config_NZ.xml
+PRODUCT_COPY_FILES vendor/lge/apps/Nfc/config/xml/config_US.xml:system/etc/nfc/config_US.xml
+PRODUCT_COPY_FILES vendor/lge/apps/Nfc/config/xml/config_PT.xml:system/etc/nfc/config_PT.xml
+PRODUCT_COPY_FILES vendor/lge/apps/Nfc/config/xml/config_nfcopen.xml:system/etc/nfc/config_nfcopen.xml
+PRODUCT_COPY_FILES vendor/lge/apps/Nfc/config/xml/config.xml:system/etc/nfc/config.xml
+PRODUCT_COPY_FILES vendor/lge/apps/Nfc/config/xml/config_TR.xml:system/etc/nfc/config_TR.xml
+PRODUCT_COPY_FILES vendor/lge/apps/Nfc/config/xml/config_HK.xml:system/etc/nfc/config_HK.xml
+PRODUCT_COPY_FILES vendor/lge/apps/Nfc/config/xml/config_BR.xml:system/etc/nfc/config_BR.xml
+PRODUCT_COPY_FILES vendor/lge/apps/Nfc/config/xml/config_IL.xml:system/etc/nfc/config_IL.xml
+PRODUCT_COPY_FILES vendor/lge/apps/Nfc/config/xml/config_CN.xml:system/etc/nfc/config_CN.xml
+PRODUCT_COPY_FILES vendor/lge/apps/Nfc/config/xml/config_JP.xml:system/etc/nfc/config_JP.xml
+PRODUCT_COPY_FILES vendor/lge/apps/Nfc/config/xml/config_IT.xml:system/etc/nfc/config_IT.xml
+PRODUCT_COPY_FILES vendor/lge/apps/Nfc/config/xml/config_CA.xml:system/etc/nfc/config_CA.xml
+PRODUCT_COPY_FILES vendor/lge/apps/Nfc/config/xml/config_COM.xml:system/etc/nfc/config_COM.xml
+PRODUCT_COPY_FILES vendor/lge/apps/Nfc/config/xml/config_SG.xml:system/etc/nfc/config_SG.xml
+PRODUCT_COPY_FILES vendor/lge/apps/Nfc/config/xml/config_AU.xml:system/etc/nfc/config_AU.xml
+PRODUCT_COPY_FILES vendor/lge/apps/Nfc/config/xml/config_nfc.xml:system/etc/nfc/config_nfc.xml
+PRODUCT_COPY_FILES vendor/lge/apps/Nfc/config/xml/config_TLF.xml:system/etc/nfc/config_TLF.xml
+PRODUCT_COPY_FILES vendor/lge/apps/Nfc/config/xml/config_CO.xml:system/etc/nfc/config_CO.xml
+PRODUCT_COPY_FILES vendor/lge/apps/Nfc/config/xml/target_list.xml:system/etc/nfc/target_list.xml
+PRODUCT_COPY_FILES vendor/lge/apps/Nfc/config/xml/config_KR.xml:system/etc/nfc/config_KR.xml
+PRODUCT_COPY_FILES vendor/lge/apps/Nfc/config/xml/config_FR.xml:system/etc/nfc/config_FR.xml
+PRODUCT_COPY_FILES vendor/lge/apps/Nfc/config/xml/config_PL.xml:system/etc/nfc/config_PL.xml
+PRODUCT_COPY_FILES vendor/lge/apps/Nfc/config/xml/config_MX.xml:system/etc/nfc/config_MX.xml
+PRODUCT_COPY_FILES frameworks/native/data/etc/com.nxp.mifare.xml:system/etc/permissions/com.nxp.mifare.xml
+PRODUCT_COPY_FILES vendor/nxp/nfc/pn547/8_1_25/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/lgenfc/nxp/libnfc-nxp.conf:system/etc/libnfc-nxp-lg.conf
+PRODUCT_COPY_FILES vendor/nxp/nfc/libnfc-nxp-nci-ar3/halimpl/pn547/libnfc-brcm.conf:system/etc/libnfc-brcm.conf
+PRODUCT_COPY_FILES vendor/nxp/nfc/libnfc-nxp-nci-ar3/halimpl/pn547/libnfc-nxp-PN547_C2.conf:system/etc/libnfc-nxp.conf
+PRODUCT_COPY_FILES vendor/nxp/nfc/pn547/8_1_8/libpn547_fw.so:system/vendor/firmware/libpn547_default_fw.so
+PRODUCT_COPY_FILES vendor/lge/common/data/etc/com.lge.software.led.xml:system/etc/permissions/com.lge.software.led.xml
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/Alarm.txt:system/etc/led/Alarm.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/BluetoothConnected.txt:system/etc/led/BluetoothConnected.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/BluetoothDisconnected.txt:system/etc/led/BluetoothDisconnected.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/Calendar_Reminder.txt:system/etc/led/Calendar_Reminder.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/Incoming_Call_Blue.txt:system/etc/led/Incoming_Call_Blue.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/Incoming_Call_Lime.txt:system/etc/led/Incoming_Call_Lime.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/Incoming_Call_Orange.txt:system/etc/led/Incoming_Call_Orange.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/Incoming_Call_Pink.txt:system/etc/led/Incoming_Call_Pink.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/Incoming_Call_Purple.txt:system/etc/led/Incoming_Call_Purple.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/Incoming_Call_Red.txt:system/etc/led/Incoming_Call_Red.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/Incoming_Call_Turquoise.txt:system/etc/led/Incoming_Call_Turquoise.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/Incoming_Call_Yellow.txt:system/etc/led/Incoming_Call_Yellow.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/Incoming_Call01.txt:system/etc/led/Incoming_Call01.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/Incoming_Call02.txt:system/etc/led/Incoming_Call02.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/Incoming_Call03.txt:system/etc/led/Incoming_Call03.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/Calling.txt:system/etc/led/Calling.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/Missed_Noti_Once.txt:system/etc/led/Missed_Noti_Once.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/Missed_Noti_Once_Pink.txt:system/etc/led/Missed_Noti_Once_Pink.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/Missed_Noti_Once_Blue.txt:system/etc/led/Missed_Noti_Once_Blue.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/Missed_Noti_Once_Orange.txt:system/etc/led/Missed_Noti_Once_Orange.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/Missed_Noti_Once_Yellow.txt:system/etc/led/Missed_Noti_Once_Yellow.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/Missed_Noti_Once_Turquoise.txt:system/etc/led/Missed_Noti_Once_Turquoise.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/Missed_Noti_Once_Purple.txt:system/etc/led/Missed_Noti_Once_Purple.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/Missed_Noti_Once_Red.txt:system/etc/led/Missed_Noti_Once_Red.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/Missed_Noti_Once_Lime.txt:system/etc/led/Missed_Noti_Once_Lime.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/CameraBestShotGuide.txt:system/etc/led/CameraBestShotGuide.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/CameraBestShotGuide2.txt:system/etc/led/CameraBestShotGuide2.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/CameraTimer3s.txt:system/etc/led/CameraTimer3s.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/CameraTimer5s.txt:system/etc/led/CameraTimer5s.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/CameraTimer10s.txt:system/etc/led/CameraTimer10s.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/Lcd_On.txt:system/etc/led/Lcd_On.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/QRemoteButton.txt:system/etc/led/QRemoteButton.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/SoundRecording.txt:system/etc/led/SoundRecording.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/Tangible_Connect.txt:system/etc/led/Tangible_Connect.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/UrgentIncomingCall.txt:system/etc/led/UrgentIncomingCall.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/Volume_Down.txt:system/etc/led/Volume_Down.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/Volume_Up.txt:system/etc/led/Volume_Up.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/Knock_On.txt:system/etc/led/Knock_On.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/Failed_CheckPassword.txt:system/etc/led/Failed_CheckPassword.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/Incoming_Call.txt:system/etc/led/Incoming_Call.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/CameraDrawAttentionLED.txt:system/etc/led/CameraDrawAttentionLED.txt
+PRODUCT_COPY_FILES vendor/lge/prebuilt/media/led/Missed_Noti_Secret_Once.txt:system/etc/led/Missed_Noti_Secret_Once.txt
+PRODUCT_COPY_FILES vendor/lge/common/data/etc/com.lge.software.volumevibrator.xml:system/etc/permissions/com.lge.software.volumevibrator.xml:lge
+PRODUCT_COPY_FILES system/bluetooth/data/main.le.conf:system/etc/bluetooth/main.conf
+PRODUCT_COPY_FILES device/lge/common/bluetooth/block_avrcp_toggle_new.conf:system/etc/bluetooth/block_avrcp_toggle_new.conf
+PRODUCT_COPY_FILES device/lge/common/bluetooth/avrcp_toggle_white_list.conf:system/etc/bluetooth/avrcp_toggle_white_list.conf
+PRODUCT_COPY_FILES device/lge/common/bluetooth/bt_tts_list.conf:system/etc/bluetooth/bt_tts_list.conf
+PRODUCT_COPY_FILES device/lge/common/bluetooth/connect_other_profile_timeout_list.conf:system/etc/bluetooth/connect_other_profile_timeout_list.conf
+PRODUCT_COPY_FILES vendor/lge/common/data/etc/com.lge.software.cliptray.xml:system/etc/permissions/com.lge.software.cliptray.xml
+PRODUCT_COPY_FILES vendor/lge/common/data/etc/com.lge.software.wfdService.xml:system/etc/permissions/com.lge.software.wfdService.xml
+PRODUCT_COPY_FILES vendor/lge/frameworks/base/wfds/com.lge.wfds.xml:system/etc/permissions/com.lge.wfds.xml
+PRODUCT_COPY_FILES vendor/lge/common/data/etc/com.lge.software.devencryption.xml:system/etc/permissions/com.lge.software.devencryption.xml
+PRODUCT_COPY_FILES vendor/lge/frameworks/splitwindow/com.lge.zdi.splitwindow.xml:system/etc/permissions/com.lge.zdi.splitwindow.xml
+PRODUCT_COPY_FILES vendor/lge/frameworks/splitwindow/com.lge.splitwindow.default_apps.xml:system/etc/com.lge.splitwindow.default_apps.xml
+PRODUCT_COPY_FILES vendor/lge/frameworks/splitwindow/com.lge.splitwindow.autosplit_rules.xml:system/etc/com.lge.splitwindow.autosplit_rules.xml
+PRODUCT_COPY_FILES vendor/lge/common/data/etc/com.lge.software.sdencryption.xml:system/etc/permissions/com.lge.software.sdencryption.xml
+PRODUCT_COPY_FILES vendor/lge/common/data/etc/com.lge.software.leccp.xml:system/etc/permissions/com.lge.software.leccp.xml
+PRODUCT_COPY_FILES device/lge/msm8952/init.msm8952.rc:root/init.p1v.rc
+PRODUCT_COPY_FILES device/lge/p1v/init.p1v_core.rc:root/init.p1v_core.rc
+PRODUCT_COPY_FILES device/lge/p1v/fstab.p1v:root/fstab.p1v
+PRODUCT_COPY_FILES device/lge/p1v/ueventd.p1v.rc:root/ueventd.p1v.rc
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/preload.filter:system/etc/preload.filter
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/user.filter:system/etc/user.filter
+PRODUCT_COPY_FILES device/lge/p1v/media_profiles.xml:system/etc/media_profiles.xml
+PRODUCT_COPY_FILES device/lge/p1v/audio_effects.conf:system/vendor/etc/audio_effects.conf
+PRODUCT_COPY_FILES device/lge/p1v/init.recovery.p1v.rc:root/init.recovery.p1v.rc
+PRODUCT_COPY_FILES device/lge/p1v/init.recovery.p1v_chcon_keystore.sh:system/etc/init.recovery.p1v_chcon_keystore.sh
+PRODUCT_COPY_FILES device/lge/p1v/init.p1v_chcon_keystore.sh:system/etc/init.p1v_chcon_keystore.sh
+PRODUCT_COPY_FILES device/lge/p1v/last_kmsg_backup.sh:system/etc/last_kmsg_backup.sh
+PRODUCT_COPY_FILES frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml
+PRODUCT_COPY_FILES frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:system/etc/permissions/android.hardware.camera.flash-autofocus.xml
+PRODUCT_COPY_FILES frameworks/native/data/etc/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml
+PRODUCT_COPY_FILES frameworks/native/data/etc/android.hardware.bluetooth_le.xml:system/etc/permissions/android.hardware.bluetooth_le.xml
+PRODUCT_COPY_FILES frameworks/native/data/etc/android.hardware.location.gps.xml:system/etc/permissions/android.hardware.location.gps.xml
+PRODUCT_COPY_FILES frameworks/native/data/etc/android.hardware.wifi.xml:system/etc/permissions/android.hardware.wifi.xml
+PRODUCT_COPY_FILES frameworks/native/data/etc/android.hardware.wifi.direct.xml:system/etc/permissions/android.hardware.wifi.direct.xml
+PRODUCT_COPY_FILES frameworks/native/data/etc/android.hardware.sensor.proximity.xml:system/etc/permissions/android.hardware.sensor.proximity.xml
+PRODUCT_COPY_FILES frameworks/native/data/etc/android.hardware.sensor.light.xml:system/etc/permissions/android.hardware.sensor.light.xml
+PRODUCT_COPY_FILES frameworks/native/data/etc/android.hardware.sensor.accelerometer.xml:system/etc/permissions/android.hardware.sensor.accelerometer.xml
+PRODUCT_COPY_FILES frameworks/native/data/etc/android.hardware.sensor.compass.xml:system/etc/permissions/android.hardware.sensor.compass.xml
+PRODUCT_COPY_FILES frameworks/native/data/etc/android.hardware.sensor.stepcounter.xml:system/etc/permissions/android.hardware.sensor.stepcounter.xml
+PRODUCT_COPY_FILES frameworks/native/data/etc/android.hardware.sensor.stepdetector.xml:system/etc/permissions/android.hardware.sensor.stepdetector.xml
+PRODUCT_COPY_FILES frameworks/native/data/etc/android.hardware.touchscreen.multitouch.jazzhand.xml:system/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml
+PRODUCT_COPY_FILES frameworks/native/data/etc/android.hardware.usb.accessory.xml:system/etc/permissions/android.hardware.usb.accessory.xml
+PRODUCT_COPY_FILES frameworks/native/data/etc/android.hardware.usb.host.xml:system/etc/permissions/android.hardware.usb.host.xml
+PRODUCT_COPY_FILES frameworks/native/data/etc/android.hardware.consumerir.xml:system/etc/permissions/android.hardware.consumerir.xml
+PRODUCT_COPY_FILES device/lge/p1v/sensors/sensor_def_p1v.conf:system/etc/sensors/sensor_def_common.conf
+PRODUCT_COPY_FILES device/lge/p1v/sensors/sensor_def_p1v_base.conf:system/etc/sensors/sensor_def_variable.conf
+PRODUCT_COPY_FILES device/lge/p1v/WLAN/QCT/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf
+PRODUCT_COPY_FILES device/lge/p1v/WLAN/QCT/p2p_supplicant.conf:system/etc/wifi/p2p_supplicant.conf
+PRODUCT_COPY_FILES device/lge/p1v/WLAN/QCT/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf
+PRODUCT_COPY_FILES device/lge/p1v/WLAN/QCT/init.wifi.rc:root/init.wifi.rc
+PRODUCT_COPY_FILES device/lge/p1v/WLAN/common/conf/wpa_supplicant_att.conf:system/etc/wifi/wpa_supplicant.conf
+PRODUCT_COPY_FILES device/lge/p1v/audio_config/mixer_paths.xml:system/etc/mixer_paths.xml ignored.
+PRODUCT_COPY_FILES device/lge/p1v/audio_config/audio_platform_info.xml:system/etc/audio_platform_info.xml
+PRODUCT_COPY_FILES device/lge/p1v/audio_config/audio_policy.conf:system/etc/audio_policy.conf
+PRODUCT_COPY_FILES device/lge/p1v/audio_config/dynamic_library/WmaStdDecoderModule.so.1:/system/vendor/lib/rfsa/adsp/WmaStdDecoderModule.so.1
+PRODUCT_COPY_FILES device/lge/p1v/audio_config/dynamic_library/WmaProDecoderModule.so.1:/system/vendor/lib/rfsa/adsp/WmaProDecoderModule.so.1
+PRODUCT_COPY_FILES device/lge/p1v/audio_config/dynamic_library/VorbisDecoderModule.so.1:/system/vendor/lib/rfsa/adsp/VorbisDecoderModule.so.1
+PRODUCT_COPY_FILES device/lge/p1v/audio_config/dynamic_library/SrsTruMediaModule.so.1:/system/vendor/lib/rfsa/adsp/SrsTruMediaModule.so.1
+PRODUCT_COPY_FILES device/lge/p1v/audio_config/dynamic_library/SAPlusCmnModule.so.1:/system/vendor/lib/rfsa/adsp/SAPlusCmnModule.so.1
+PRODUCT_COPY_FILES device/lge/p1v/audio_config/dynamic_library/mmecns_module.so.1:/system/vendor/lib/rfsa/adsp/mmecns_module.so.1
+PRODUCT_COPY_FILES device/lge/p1v/audio_config/dynamic_library/HeaacDecoderModule.so.1:/system/vendor/lib/rfsa/adsp/HeaacDecoderModule.so.1
+PRODUCT_COPY_FILES device/lge/p1v/audio_config/dynamic_library/fluence_voiceplus_module.so.1:/system/vendor/lib/rfsa/adsp/fluence_voiceplus_module.so.1
+PRODUCT_COPY_FILES device/lge/p1v/audio_config/dynamic_library/FlacDecoderModule.so.1:/system/vendor/lib/rfsa/adsp/FlacDecoderModule.so.1
+PRODUCT_COPY_FILES device/lge/p1v/audio_config/dynamic_library/EtsiEaacPlusEncAndCmnModule.so.1:/system/vendor/lib/rfsa/adsp/EtsiEaacPlusEncAndCmnModule.so.1
+PRODUCT_COPY_FILES device/lge/p1v/audio_config/dynamic_library/DTS_HPX_MODULE.so.1:/system/vendor/lib/rfsa/adsp/DTS_HPX_MODULE.so.1
+PRODUCT_COPY_FILES device/lge/p1v/audio_config/dynamic_library/DolbySurroundModule.so.1:/system/vendor/lib/rfsa/adsp/DolbySurroundModule.so.1
+PRODUCT_COPY_FILES device/lge/p1v/audio_config/dynamic_library/DolbyMobileModule.so.1:/system/vendor/lib/rfsa/adsp/DolbyMobileModule.so.1
+PRODUCT_COPY_FILES device/lge/p1v/audio_config/dynamic_library/AudioSphereModule.so.1:/system/vendor/lib/rfsa/adsp/AudioSphereModule.so.1
+PRODUCT_COPY_FILES device/lge/p1v/audio_config/dynamic_library/ApeDecoderModule.so.1:/system/vendor/lib/rfsa/adsp/ApeDecoderModule.so.1
+PRODUCT_COPY_FILES device/lge/p1v/audio_config/dynamic_library/AlacDecoderModule.so.1:/system/vendor/lib/rfsa/adsp/AlacDecoderModule.so.1
+PRODUCT_COPY_FILES device/lge/p1v/audio_config/dynamic_library/fastrpc_shell_0:/system/vendor/lib/rfsa/adsp/fastrpc_shell_0
+PRODUCT_COPY_FILES device/lge/p1v/audio_config/dynamic_library/libsysmon_skel.so:/system/vendor/lib/rfsa/adsp/libsysmon_skel.so
+PRODUCT_COPY_FILES device/lge/common/data/xml/apns_ATT_US_IMS.xml:system/etc/apns-conf.xml
+PRODUCT_COPY_FILES device/lge/common/data/xml/apns_ATT_US.xml:system/etc/apns-conf.xml ignored.
+PRODUCT_COPY_FILES device/lge/common/data/xml/dcm_settings_ATT_US.xml:system/etc/dcm_settings.xml
+PRODUCT_COPY_FILES device/lge/common/data/xml/apns-conf.xml:system/etc/apns-conf.xml ignored.
+PRODUCT_COPY_FILES device/lge/common/data/xml/dcm_settings.xml:system/etc/dcm_settings.xml ignored.
+PRODUCT_COPY_FILES device/lge/common/data/xml/clatd_45000.conf:system/etc/clatd_45000.conf
+PRODUCT_COPY_FILES vendor/lge/system/usb/file/autorun/usbautorun_DriverOnly_MTP.iso:system/usbautorun.iso
+PRODUCT_COPY_FILES vendor/lge/system/usb/device/carrier/att/init.lge.cmm.usb.sh:root/init.lge.cmm.usb.sh
+PRODUCT_COPY_FILES vendor/lge/system/usb/device/carrier/common/init.lge.usb.sh:root/init.lge.usb.sh
+PRODUCT_COPY_FILES vendor/lge/system/usb/device/carrier/common/init.lge.usb.post-fs-data.sh:root/init.lge.usb.post-fs-data.sh
+PRODUCT_COPY_FILES vendor/lge/system/usb/device/carrier/common/init.lge.usb.rc:root/init.lge.usb.rc
+PRODUCT_COPY_FILES device/lge/common/audio/factory_sound_files/1kHz_0dB_L128k.mp3:system/sounds/lgeSounds/1kHz_0dB_L128k.mp3 ignored.
+PRODUCT_COPY_FILES device/lge/common/audio/factory_sound_files/1kHz_0dB_LR_128k.mp3:system/sounds/lgeSounds/1kHz_0dB_LR_128k.mp3 ignored.
+PRODUCT_COPY_FILES device/lge/common/audio/factory_sound_files/1kHz_0dB_R_128k.mp3:system/sounds/lgeSounds/1kHz_0dB_R_128k.mp3 ignored.
+PRODUCT_COPY_FILES device/lge/common/audio/factory_sound_files/MultiSine_20-20kHz-0dBp_128k.mp3:system/sounds/lgeSounds/MultiSine_20-20kHz-0dBp_128k.mp3 ignored.
+PRODUCT_COPY_FILES device/lge/common/audio/factory_sound_files/NoSignal_LR_128k.mp3:system/sounds/lgeSounds/NoSignal_LR_128k.mp3 ignored.
+PRODUCT_COPY_FILES device/lge/common/audio/factory_sound_files/500Hz_0dB_LR_128k.mp3:system/sounds/lgeSounds/500Hz_0dB_LR_128k.mp3 ignored.
+PRODUCT_COPY_FILES device/lge/common/audio/factory_sound_files/800Hz_0dB_LR_128k.mp3:system/sounds/lgeSounds/800Hz_0dB_LR_128k.mp3 ignored.
+PRODUCT_COPY_FILES device/lge/common/audio/factory_sound_files/bt_loopback_silence.wav:system/sounds/lgeSounds/bt_loopback_silence.wav ignored.
+PRODUCT_COPY_FILES device/lge/common/audio/factory_sound_files/1000hz_10sec.mp3:system/sounds/lgeSounds/1000hz_10sec.mp3 ignored.
+PRODUCT_COPY_FILES device/lge/common/audio/factory_sound_files/315_3150hz_2sec.mp3:system/sounds/lgeSounds/315_3150hz_2sec.mp3 ignored.
+PRODUCT_COPY_FILES device/lge/common/audio/factory_sound_files/630Hz_10sec.mp3:system/sounds/lgeSounds/630Hz_10sec.mp3 ignored.
+PRODUCT_COPY_FILES device/lge/common/audio/factory_sound_files/4000Hz_10sec.mp3:system/sounds/lgeSounds/4000Hz_10sec.mp3 ignored.
+PRODUCT_COPY_FILES device/lge/common/opera_jet/L0.jet:system/media/audio/jet/L0.jet
+PRODUCT_COPY_FILES device/lge/common/opera_jet/L1.jet:system/media/audio/jet/L1.jet
+PRODUCT_COPY_FILES device/lge/common/opera_jet/L0_Preview.jet:system/media/audio/jet/L0_Preview.jet
+PRODUCT_COPY_FILES device/lge/common/opera_jet/L1_Preview.jet:system/media/audio/jet/L1_Preview.jet
+PRODUCT_COPY_FILES device/lge/msm8952/init.msm8952_core.rc:root/init.msm8952_core.rc
+PRODUCT_COPY_FILES vendor/lge/system/usb/device/carrier/common/init.lge.cmm.usb.sh:root/init.lge.cmm.usb.sh ignored.
+PRODUCT_COPY_FILES vendor/lge/common/rc/qct/init.lge.fs.rc:root/init.lge.fs.rc
+PRODUCT_COPY_FILES device/lge/msm8952/init.msm8952.fs.rc:root/init.msm8952.fs.rc
+PRODUCT_COPY_FILES device/lge/msm8952/init.lge.power.rc:root/init.lge.power.rc
+PRODUCT_COPY_FILES device/lge/msm8952/qcom/device/common/rootdir/etc/init.qcom.rc:root/init.qcom.rc
+PRODUCT_COPY_FILES device/lge/msm8952/qcom/device/common/rootdir/etc/init.qcom.sh:root/init.qcom.sh
+PRODUCT_COPY_FILES device/lge/msm8952/qcom/device/common/rootdir/etc/init.qcom.class_core.sh:root/init.qcom.class_core.sh
+PRODUCT_COPY_FILES device/lge/msm8952/qcom/device/common/rootdir/etc/init.class_main.sh:root/init.class_main.sh
+PRODUCT_COPY_FILES device/lge/msm8952/qcom/device/common/rootdir/etc/init.qcom.post_boot.sh:system/etc/init.qcom.post_boot.sh
+PRODUCT_COPY_FILES device/lge/msm8952/qcom/device/common/rootdir/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh
+PRODUCT_COPY_FILES device/lge/msm8952/qcom/device/common/rootdir/etc/hcidump.sh:system/etc/hcidump.sh
+PRODUCT_COPY_FILES device/lge/msm8952/qcom/device/common/rootdir/etc/init.ath3k.bt.sh:system/etc/init.ath3k.bt.sh
+PRODUCT_COPY_FILES device/lge/msm8952/qcom/device/common/rootdir/etc/init.qcom.coex.sh:system/etc/init.qcom.coex.sh
+PRODUCT_COPY_FILES device/lge/msm8952/qcom/device/common/rootdir/etc/init.qcom.fm.sh:system/etc/init.qcom.fm.sh
+PRODUCT_COPY_FILES device/lge/msm8952/qcom/device/common/rootdir/etc/init.qcom.sdio.sh:system/etc/init.qcom.sdio.sh
+PRODUCT_COPY_FILES device/lge/msm8952/qcom/device/common/rootdir/etc/init.crda.sh:system/etc/init.crda.sh
+PRODUCT_COPY_FILES device/lge/msm8952/qcom/device/msm8952_64/init.target.rc:root/init.target.rc
+PRODUCT_COPY_FILES device/lge/msm8952/init.msm8952.crash.sh:root/init.msm8952.crash.sh
+PRODUCT_COPY_FILES device/lge/msm8952/set_emmc_size.sh:root/set_emmc_size.sh
+PRODUCT_COPY_FILES vendor/lge/common/init.lge.early.rc:root/init.lge.early.rc
+PRODUCT_COPY_FILES vendor/lge/common/init.lge.rc:root/init.lge.rc
+PRODUCT_COPY_FILES vendor/lge/prebuilt/LGBackup/bnrd:system/bin/bnrd
+PRODUCT_COPY_FILES vendor/lge/prebuilt/LGBackup/tar:system/bin/tar
+PRODUCT_COPY_FILES vendor/lge/common/data/etc/com.lge.software.talkbackquickaccess.xml:system/etc/permissions/com.lge.software.talkbackquickaccess.xml
+PRODUCT_COPY_FILES packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:system/etc/permissions/android.software.live_wallpaper.xml
+PRODUCT_COPY_FILES vendor/lge/lge_security/bc-fips/prebuilt/bc-fips.jar:system/framework/bc-fips.jar
+PRODUCT_COPY_FILES vendor/lge/development/debug/hdump/hdump/init.hdump.rc:root/init.hdump.rc
+PRODUCT_COPY_FILES vendor/lge/common/data/etc/com.lge.software.integrity.xml:system/etc/permissions/com.lge.software.integrity.xml
+PRODUCT_COPY_FILES vendor/lge/development/debug/logger_service/init.lge.log.rc:root/init.lge.log.rc
+PRODUCT_COPY_FILES vendor/lge/development/debug/diag_service/init.lge.diag.rc:root/init.lge.diag.rc
+PRODUCT_COPY_FILES device/lge/common/gps/conf/gps.conf_ATT_US_CPAGLO:system/etc/gps.conf
+PRODUCT_COPY_FILES device/lge/common/gps/xml/gnss-conf.xml:system/etc/gnss-conf.xml
+PRODUCT_COPY_FILES device/lge/common/gps/sec_config:system/etc/sec_config
+PRODUCT_COPY_FILES device/qcom/msm8952_32/media/media_profiles_8952.xml:system/etc/media_profiles.xml ignored.
+PRODUCT_COPY_FILES device/qcom/msm8952_32/media/media_codecs_8952.xml:system/etc/media_codecs.xml
+PRODUCT_COPY_FILES device/qcom/msm8952_64/whitelistedapps.xml:system/etc/whitelistedapps.xml
+PRODUCT_COPY_FILES frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:system/etc/media_codecs_google_audio.xml
+PRODUCT_COPY_FILES frameworks/av/media/libstagefright/data/media_codecs_google_telephony.xml:system/etc/media_codecs_google_telephony.xml
+PRODUCT_COPY_FILES frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:system/etc/media_codecs_google_video.xml
+PRODUCT_COPY_FILES device/qcom/common/media/media_profiles.xml:system/etc/media_profiles.xml ignored.
+PRODUCT_COPY_FILES device/qcom/common/media/media_codecs.xml:system/etc/media_codecs.xml ignored.
+PRODUCT_COPY_FILES device/qcom/msm8952_64/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf
+PRODUCT_COPY_FILES device/qcom/msm8952_32/WCNSS_wlan_dictionary.dat:persist/WCNSS_wlan_dictionary.dat
+PRODUCT_COPY_FILES device/qcom/msm8952_64/WCNSS_qcom_wlan_nv.bin:persist/WCNSS_qcom_wlan_nv.bin
+PRODUCT_COPY_FILES device/qcom/msm8952_64/sensors/hals.conf:system/etc/sensors/hals.conf
+PRODUCT_COPY_FILES frameworks/av/media/libeffects/data/audio_effects.conf:system/etc/audio_effects.conf
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/AVRCP.kl:system/usr/keylayout/AVRCP.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Generic.kl:system/usr/keylayout/Generic.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/qwerty.kl:system/usr/keylayout/qwerty.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Vendor_0079_Product_0011.kl:system/usr/keylayout/Vendor_0079_Product_0011.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Vendor_045e_Product_028e.kl:system/usr/keylayout/Vendor_045e_Product_028e.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Vendor_046d_Product_b501.kl:system/usr/keylayout/Vendor_046d_Product_b501.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Vendor_046d_Product_c216.kl:system/usr/keylayout/Vendor_046d_Product_c216.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Vendor_046d_Product_c219.kl:system/usr/keylayout/Vendor_046d_Product_c219.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Vendor_046d_Product_c21d.kl:system/usr/keylayout/Vendor_046d_Product_c21d.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Vendor_046d_Product_c21f.kl:system/usr/keylayout/Vendor_046d_Product_c21f.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Vendor_046d_Product_c294.kl:system/usr/keylayout/Vendor_046d_Product_c294.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Vendor_046d_Product_c299.kl:system/usr/keylayout/Vendor_046d_Product_c299.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Vendor_046d_Product_c532.kl:system/usr/keylayout/Vendor_046d_Product_c532.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Vendor_054c_Product_0268.kl:system/usr/keylayout/Vendor_054c_Product_0268.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Vendor_0583_Product_2060.kl:system/usr/keylayout/Vendor_0583_Product_2060.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Vendor_05ac_Product_0239.kl:system/usr/keylayout/Vendor_05ac_Product_0239.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Vendor_0b05_Product_4500.kl:system/usr/keylayout/Vendor_0b05_Product_4500.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Vendor_1038_Product_1412.kl:system/usr/keylayout/Vendor_1038_Product_1412.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Vendor_12bd_Product_d015.kl:system/usr/keylayout/Vendor_12bd_Product_d015.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Vendor_1532_Product_0900.kl:system/usr/keylayout/Vendor_1532_Product_0900.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Vendor_1689_Product_fd00.kl:system/usr/keylayout/Vendor_1689_Product_fd00.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Vendor_1689_Product_fd01.kl:system/usr/keylayout/Vendor_1689_Product_fd01.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Vendor_1689_Product_fe00.kl:system/usr/keylayout/Vendor_1689_Product_fe00.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Vendor_18d1_Product_2c40.kl:system/usr/keylayout/Vendor_18d1_Product_2c40.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Vendor_1949_Product_0401.kl:system/usr/keylayout/Vendor_1949_Product_0401.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Vendor_1bad_Product_f016.kl:system/usr/keylayout/Vendor_1bad_Product_f016.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Vendor_1bad_Product_f023.kl:system/usr/keylayout/Vendor_1bad_Product_f023.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Vendor_1bad_Product_f027.kl:system/usr/keylayout/Vendor_1bad_Product_f027.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Vendor_1bad_Product_f036.kl:system/usr/keylayout/Vendor_1bad_Product_f036.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Vendor_1d79_Product_0009.kl:system/usr/keylayout/Vendor_1d79_Product_0009.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Vendor_22b8_Product_093d.kl:system/usr/keylayout/Vendor_22b8_Product_093d.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Vendor_2378_Product_1008.kl:system/usr/keylayout/Vendor_2378_Product_1008.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Vendor_2378_Product_100a.kl:system/usr/keylayout/Vendor_2378_Product_100a.kl
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Generic.kcm:system/usr/keychars/Generic.kcm
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/qwerty2.kcm:system/usr/keychars/qwerty2.kcm
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/qwerty.kcm:system/usr/keychars/qwerty.kcm
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/Virtual.kcm:system/usr/keychars/Virtual.kcm
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/qwerty2.idc:system/usr/idc/qwerty2.idc
+PRODUCT_COPY_FILES frameworks/base/data/keyboards/qwerty.idc:system/usr/idc/qwerty.idc
+PRODUCT_COPY_FILES frameworks/native/data/etc/android.software.webview.xml:system/etc/permissions/android.software.webview.xml
+PRODUCT_COPY_FILES system/core/rootdir/init.zygote32.rc:root/init.zygote32.rc
+PRODUCT_COPY_FILES frameworks/base/preloaded-classes:system/etc/preloaded-classes
+PRODUCT_COPY_FILES system/core/rootdir/init.usb.rc:root/init.usb.rc
+PRODUCT_COPY_FILES system/core/rootdir/init.trace.rc:root/init.trace.rc
+PRODUCT_COPY_FILES system/core/rootdir/ueventd.rc:root/ueventd.rc
+PRODUCT_COPY_FILES system/core/rootdir/etc/hosts:system/etc/hosts
+PRODUCT_COPY_FILES device/lge/common/svelte/init.lge.zramswap.sh:system/etc/init.lge.zramswap.sh ignored.
+PRODUCT_COPY_FILES device/lge/common/svelte/init.lge.svelte.rc:root/init.lge.svelte.rc
+PRODUCT_COPY_FILES device/lge/p1v/overlay/frameworks/base/core/res/res/xml/storage_list.xml:factory_ramdisk/storage_list.xml
+PRODUCT_COPY_FILES vendor/lge/factory/minios/factory_ramdisk_common_8952/init.miniOS.rc:factory_ramdisk/init.miniOS.rc
+PRODUCT_COPY_FILES vendor/lge/factory/minios/factory_ramdisk_common_8952/init.miniOS.aat.rc:factory_ramdisk/init.miniOS.aat.rc
+PRODUCT_COPY_FILES vendor/lge/factory/minios/factory_ramdisk_common_8952/init.miniOS.mfts.rc:factory_ramdisk/init.miniOS.mfts.rc
+PRODUCT_COPY_FILES vendor/lge/factory/mts/mtsd/mask/all.cfg:system/etc/mts_mask/all.cfg
+PRODUCT_COPY_FILES vendor/lge/factory/mts/mtsd/mask/erase.cfg:system/etc/mts_mask/erase.cfg
+PRODUCT_COPY_FILES device/lge/p1v/p1v_att_us/app_audio_config.xml:system/etc/app_audio_config.xml
+PRODUCT_COPY_FILES device/lge/msm8952/init.lge.bt.rc:root/init.lge.bt_vendor.rc
+PRODUCT_COPY_FILES device/lge/p1v/bluetooth/feature_config.xml:system/etc/bluetooth/feature_config.xml
+No private recovery resources for TARGET_DEVICE p1v
+No private laf resources for TARGET_DEVICE p1v
+make: Entering directory `/home001/jeongjoo.lee/msm8952/android'
+make: Nothing to be done for `all_modules'.
+make: Leaving directory `/home001/jeongjoo.lee/msm8952/android'
+
+#### make completed successfully (2 seconds) ####
+
